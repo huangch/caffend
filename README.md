@@ -1,8 +1,9 @@
 # CAFFEnd
 History:
 
-3-OCT-2017: Fixed bugs
-4-SEPT-2017: Updated using the Caffe master (04-Sept-2017)
+3-OCT-2017: Fixed bugs.
+
+4-SEPT-2017: Updated using the Caffe master.
 
 CAFFEnd is the Caffe with the extension to any dimensional data set. 
 
