@@ -1,4 +1,4 @@
-# CAFFEnd: A Caffe Extension for Arbitrary Dimensional Data Sets
+# CAFFEnd: A Caffe Extension for Data Sets in Any Dimensional Vector Space
 
 Caffe (http://caffe.berkeleyvision.org/) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley.
 
