@@ -1,16 +1,15 @@
-# CAFFEnd
-History:
+# CAFFEnd: A Caffe Extension for Arbitrary Dimensional Data Sets
 
-3-OCT-2017: Fixed bugs.
+Caffe (http://caffe.berkeleyvision.org/) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley.
 
-4-SEPT-2017: Updated using the Caffe master.
+However, Caffe is lacking-off the supporting for data sets with higher dimensional data sets. At beginning, Caffe was designed mainly for the research of deep learning in computer vision. As a result, the the majority of data modality is mainly 2D color and/or gray scale images, as it manages the input data in the fashion of (batch, channel, height and width). Hence, it limits the use cases of more than 2D. Although in recently, newer caffe components were designed to be compatible with higher dimensional data sets. However, Caffe itself is not ready yet for a dataset which consists of more than 2 or 3 dimensional data vectors.
 
-CAFFEnd is the Caffe with the extension to any dimensional data set. 
+On the other hand, in many modalities of biomedical images, the data sets are usually 3D or even higher. Unfortunately there are not many deep learning platforms available for data dimensions higher than 3D. Especially the famous deep learning platform: Caffe.
 
-Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley.
+Although there are some PRs of Caffe providing the supporting for 3D or even ND data set compatibility. However, many of them are either out-of-date or difficult to be integrated. Thus, I decided to put my effort into making the Caffe compatible to arbitrary dimensional data sets for my personal interests.
 
-At beginning, caffe was designed for 2D color and gray scale images. It manages the input data in the fashion of (batch, channel, height and width). As a result, it limits the use cases of more than 2D. Although in recently, newer caffe components were designed to be compatible with datasets of any dimensions, also, a newer version of NVIDIA cuDNN also partially supports datasets of any dimensions. However, caffe itself is not ready yet for a dataset which consists of more than 2 or 3 dimensions.
-
-Thus, I decided to put my effort into making the caffe compatible to any dimensional datasets for my personal interests.
+This Caffe extension includes most of basic operations for deep learning for arbitrary dimensional data sets, including arbitrary dimensional convolution, arbitrary dimensional pooling (MAX and AVG), etc. I am continuously working on other layer types.
 
 VNet, proposed by faustomilletare, is a 3D segmentaion approach (https://github.com/faustomilletari/VNet). This model is a good example for validating the proposed CAFFEnd.  
+
+I will be more than happy to answer any question.
