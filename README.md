@@ -12,8 +12,6 @@ This Caffe extension includes most of basic operations for deep learning for arb
 
 VNet, proposed by faustomilletare, is a 3D segmentaion approach (https://github.com/faustomilletari/VNet). This model is a good example for validating the proposed CAFFEnd.  
 
-<img src="vnet_result_cineMRI.png" width="250"/> 
-<img src="vnet_result_cineMRI.png" width="250"/> 
-<img src="vnet_result_cineMRI.png" width="250"/> 
+<img src="vnet_result_cineMRI.png" height="250"/> <img src="vnet_result_LiverCT.png" height="250"/> <img src="vnet_result_ProstateMRI.png" height="250"/> 
 
 I will be more than happy to answer any question.
