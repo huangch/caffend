@@ -14,6 +14,8 @@ VNet, proposed by faustomilletare, is a 3D segmentaion approach (https://github.
 
 <img src="vnet_result_cineMRI.png" height="200"/> <img src="vnet_result_LiverCT.png" height="200"/> <img src="vnet_result_ProstateMRI.png" height="200"/> 
 
-The figures are the results of Left Atrium MRI segmentation, Liver CT segmentation and Prostate MRI segmentation using VNet based on CAFEnd.
+The figures are the results of Left Atrium MRI segmentation, Liver CT segmentation and Prostate MRI segmentation using VNet based on CAFFEnd.
+
+I'm working on proposing PRs to the original caffe branch. Since CAFFEnd involves a certain number of file modifications, it will take a while. 
 
 I will be more than happy to answer any question.
